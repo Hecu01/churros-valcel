@@ -1,0 +1,15 @@
+.header-principal{
+    background: url('../img/background.jpg') no-repeat center/cover;
+    height: 100vh;
+
+    .contenedor-imagen{
+        display: flex;
+        justify-content: center;
+        img{
+            margin-top: 10px;
+            width: 170px;
+            border-radius: 100%;
+            box-shadow: 1px 1px 3px #0000;
+        }
+    }
+}
