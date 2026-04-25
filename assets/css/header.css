@@ -38,6 +38,7 @@
 .header-principal .contenedor {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .header-principal .contenedor .contenedor-imagen {
   display: flex;
@@ -65,6 +66,10 @@
 .header-principal .contenedor .nav a {
   margin: 5px 0px;
 }
+.header-principal .contenedor .wsp-fb-contenedor {
+  display: flex;
+  flex-direction: column;
+}
 .header-principal .section-tarjetas {
   display: flex;
   justify-content: center;
@@ -85,6 +90,12 @@
   .contenedor-imagen-responsive {
     display: flex;
   }
+  #wsp-fb-id {
+    flex-direction: row;
+  }
+  .contenedor-imagen-responsive {
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 650px) {
   .section-tarjetas {
@@ -97,6 +108,15 @@
   }
   .tarjeta-2 {
     margin: 3rem 0px;
+  }
+}
+@media (max-width: 650px) {
+  .domicilio {
+    display: flex;
+    justify-content: center;
+  }
+  .domicilio a {
+    max-width: 300px;
   }
 }
 @media (min-width: 831px) {

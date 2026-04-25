@@ -34,6 +34,7 @@
     .contenedor{
         display: flex;
         justify-content: center;
+        align-items: center;
 
         // align-items: center;
         .contenedor-imagen{
@@ -66,6 +67,10 @@
                 margin: 5px 0px;
             }
         }
+        .wsp-fb-contenedor{
+            display: flex;  
+            flex-direction: column;
+        }
     }
     .section-tarjetas{
         display: flex;
@@ -90,6 +95,12 @@
     .contenedor-imagen-responsive{
         display: flex;
     }
+    #wsp-fb-id{
+        flex-direction: row;
+    }
+    .contenedor-imagen-responsive{
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -104,6 +115,18 @@
     .tarjeta-2{
         margin: 3rem 0px;
     }
+
+}
+@media (max-width: 650px) {
+    .domicilio{ 
+        display: flex;
+        justify-content: center;
+        a{
+            max-width:300px;
+        }
+
+    }
+
 }
 @media (min-width: 831px) {
     .contenedor-imagen-responsive{
